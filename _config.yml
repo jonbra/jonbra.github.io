@@ -307,3 +307,6 @@ collections:
   resources:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
