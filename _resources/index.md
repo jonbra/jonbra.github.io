@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-permalink: /abel/
+permalink: /resources/
 excerpt: "Resources"
 sidebar: 
   nav: "resources"
