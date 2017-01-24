@@ -11,4 +11,4 @@ Currently I am studying microRNAs in the unicellular ancestors of animals, the c
 ![S. arctica][1]  
 *Sphaeroforma arctica, one of our unicellular ancestors. Photo: Jon Bråte*
 
-[1]: /images/Sphearoforma_Arctica_q22.jpg
+[1]: assets/images/research/Sphearoforma_Arctica_q22.jpg
