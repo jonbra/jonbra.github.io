@@ -283,6 +283,18 @@ defaults:
       comments: true
       sidebar:
         nav: "abel"
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: 
 
 # Collections
 collections:
