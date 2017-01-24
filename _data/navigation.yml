@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Research"
-    url: https://jonbra.github.io/research/
+    url: /research/
 
   - title: "Blog"
     url: /blog/
