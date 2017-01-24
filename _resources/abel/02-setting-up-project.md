@@ -1,6 +1,6 @@
 ---
 title: "Setting up a project on Abel"
-permalink: /resources/setting-up-project/
+permalink: /resources/abel/setting-up-project/
 excerpt: "How to set up a bioinformatics project on Abel at UiO"
 tags:
   - unix
