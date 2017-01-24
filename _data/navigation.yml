@@ -23,30 +23,30 @@ abel:
   - title: Working on Abel
     children: 
       - title: "Introduction"
-        url: /resources/intro/
+        url: /resources/abel/intro/
       - title: "Setting up a project"
-        url: /resources/setting-up-project/  
+        url: /resources/abel/setting-up-project/  
               
   - title: Quality assessment
     children:         
       - title: "FastQC"
-        url: /resources/fastqc/
+        url: /resources/abel/fastqc/
       - title: "Quality trimming"
-        url: /resources/trimming/        
+        url: /resources/abel/trimming/        
         
   - title: Reads mapping
     children:         
       - title: "Mapping to reference genome"
-        url: /resources/mapping/
+        url: /resources/abel/mapping/
       - title: "de novo transcriptome assembly"
-        url: /resources/de-novo/
+        url: /resources/abel/de-novo/
       - title: "Mapping to de novo transcriptome"
-        url: /resources/de-novo-mapping/
+        url: /resources/abel/de-novo-mapping/
 
   - title: Expression counts
     children:         
       - title: "Using HTSeq"
-        url: /resources/htseq/
+        url: /resources/abel/htseq/
 
 # Resources sidebar links
 resources:
@@ -57,4 +57,4 @@ resources:
   - title: RNA-Seq scripts
     children:         
       - title: "RNA-Seq analysis on the UiO compute cluster"
-        url: /resources/intro/
+        url: /resources/abel/intro/
