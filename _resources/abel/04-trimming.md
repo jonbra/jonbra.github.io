@@ -1,6 +1,6 @@
 ---
 title: "Quality trimming and removing adaptors"
-permalink: /resources/trimming/
+permalink: /resources/abel/trimming/
 excerpt: "How to set up a bioinformatics project on Abel at UiO"
 tags:
   - unix

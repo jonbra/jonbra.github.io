@@ -1,6 +1,6 @@
 ---
 title: "Mapping reads to reference genome"
-permalink: /resources/mapping/
+permalink: /resources/abel/mapping/
 excerpt: "How to map reads to a reference genome using TopHat2 project on Abel at UiO"
 tags:
   - unix

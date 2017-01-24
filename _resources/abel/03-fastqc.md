@@ -1,6 +1,6 @@
 ---
 title: "Checking sequence quality using FastQC"
-permalink: /resources/fastqc/
+permalink: /resources/abel/fastqc/
 excerpt: "How to run FastQC on your sequence data"
 tags:
   - unix
