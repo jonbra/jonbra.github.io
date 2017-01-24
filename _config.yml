@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Jon Bråte"
-  avatar           : "bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Biologist"
   location         : "University of Oslo"
   email            : "jon.brate@ibv.uio.no"
