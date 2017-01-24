@@ -304,9 +304,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  abel:
-    output: true
-    permalink: /:collection/:path/
   resources:
     output: true
     permalink: /:collection/:path/
