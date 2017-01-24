@@ -1,12 +1,60 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Research"
+    url: https://jonbra.github.io/research/
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "Publications"
+    url: /publications/
+
+# - title: "Talks and media"
+#   url: /talks/
+
+  - title: "Resources"
+    url: https://jonbra.github.io/abel/
+    
+#  - title: "Abel"
+#    url: https://jonbra.github.io/abel/
+
+# Abel sidebar links
+abel:
+  - title: Working on Abel
+    children: 
+      - title: "Introduction"
+        url: /resources/intro/
+      - title: "Setting up a project"
+        url: /resources/setting-up-project/  
+              
+  - title: Quality assessment
+    children:         
+      - title: "FastQC"
+        url: /resources/fastqc/
+      - title: "Quality trimming"
+        url: /resources/trimming/        
+        
+  - title: Reads mapping
+    children:         
+      - title: "Mapping to reference genome"
+        url: /resources/mapping/
+      - title: "de novo transcriptome assembly"
+        url: /resources/de-novo/
+      - title: "Mapping to de novo transcriptome"
+        url: /resources/de-novo-mapping/
+
+  - title: Expression counts
+    children:         
+      - title: "Using HTSeq"
+        url: /resources/htseq/
+
+# Resources sidebar links
+resources:
+  - title: Datasets
+    children: 
+      - title: "Sponge lincRNA data on Dryad"
+        url: http://datadryad.org/resource/doi:10.5061/dryad.v83fj
+  - title: RNA-Seq scripts
+    children:         
+      - title: "RNA-Seq analysis on the UiO compute cluster"
+        url: /resources/intro/
