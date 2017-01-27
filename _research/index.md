@@ -3,6 +3,7 @@ title: "Research"
 permalink: /research/
 author_profile: false
 comments: false
+layout: single
 ---
 
 One of my interests is the early evolution of animals. How did the first animal look like, and how did it evolve from single-celled species? In particular I am interested in genes that *regulate* how other genes are used and how these may have contributed to the evolution of increased morphological and developmental complexity. Species I am currently studying are sponges, comb jellies and the single-celled choanozoans, the closest ancestors of animals. 
