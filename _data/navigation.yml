@@ -58,3 +58,16 @@ resources:
     children:         
       - title: "RNA-Seq analysis on the UiO compute cluster"
         url: /resources/abel/intro/
+
+# Research sidebar links
+research:
+  - title: Regulatory RNAs
+    children:
+      - title: "lncRNAs"
+        url:
+      - title: "miRNAs"
+        url:
+  - title: Early aninal evolution
+    children:
+      - title: "Choanozoan development"
+  - title: Single-cell transcriptomics
