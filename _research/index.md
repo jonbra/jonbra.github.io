@@ -16,7 +16,7 @@ microRNAs are short RNA molecules that regulate other genes and are essential in
 *Sphaeroforma arctica, one of our unicellular ancestors. Photo: Jon Bråte*
 
 ### Long non-coding RNAs
-Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. We are studying the developmental expression of lncRNAs in the earliest evolving animals, the sponges ([published in Proceedings B](publications/02-2015-proceedings.md)) and the comb jellies, to get a glimpse of how the last common ancestor of animals might have used lncRNAs.
+Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. We are studying the developmental expression of lncRNAs in the earliest evolving animals, the sponges ([published in Proceedings B](/publications/02-2015-proceedings/)) and the comb jellies, to get a glimpse of how the last common ancestor of animals might have used lncRNAs.
 
 ![Sycon ciliatum][2]
 *in situ hybridization of lncRNAs expressed in the oocytes of the sponge Sycon ciliatum. Photo: Jon Bråte*
