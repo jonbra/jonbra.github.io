@@ -15,7 +15,7 @@ gallery:
     alt: "Expression of pri-miRNAs"
 ---
 
-**Bråte, J**., Neumann, S. R., Fromm, B., Grini, P. E. and Shalchian-Tabrizi, K. 2016. *bioRxiv. [doi:http://dx.doi.org/10.1101/076190](http://biorxiv.org/content/early/2016/10/01/076190)
+**Bråte, J**., Neumann, S. R., Fromm, B., Grini, P. E. and Shalchian-Tabrizi, K. 2016. *bioRxiv*. [doi:http://dx.doi.org/10.1101/076190](http://biorxiv.org/content/early/2016/10/01/076190)
 
 Here we show for the first time that unicellular ancestors of animals have microRNAs and the necessary protein machinery for correct biogenesis. This has great implications for how we interpret the origin and evolution of microRNAs.
 
