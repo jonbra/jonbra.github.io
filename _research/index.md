@@ -9,8 +9,8 @@ One of my interests is the early evolution of animals. How did the first animal 
 
 ## Regulatory RNA
 
-### micro RNAs
-micro RNAs are short RNA molecules that regulate other genes and are essential in animals. I am trying to find out when micro RNAs and the complementary protein machinery evolved in animals. Recently we have discovered for the first time micro RNAs in choanozoan species. The paper is not published, but you can check out the preprint on [bioRxiv.](http://biorxiv.org/content/early/2016/10/01/076190)
+### microRNAs
+microRNAs are short RNA molecules that regulate other genes and are essential in animals. I am trying to find out when microRNAs and the complementary protein machinery evolved in animals. Recently we have discovered for the first time micro RNAs in choanozoan species. The paper is not published, but you can check out the preprint on [bioRxiv.](http://biorxiv.org/content/early/2016/10/01/076190)
 
 ![S. arctica][1]  
 *Sphaeroforma arctica, one of our unicellular ancestors. Photo: Jon Bråte*
