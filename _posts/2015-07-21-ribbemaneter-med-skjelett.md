@@ -18,7 +18,7 @@ Dette innlegget er forresten også publisert på [forskning.no](http://forskning
 [Ribbemaneter](https://no.wikipedia.org/wiki/Ribbemaneter) er små frittlevende maneter som finnes i alle verdenshav. De ligner på brennmaneter og glassmaneter, men er faktisk ikke i slekt. Ribbemaneter utgjør sin helt egen rekke, Ctenophora. I tillegg har ribbemanetene har vært veldig i vinden i det siste fordi flere studier har antydet at de sannsynligvis var den [første dyregruppen som oppstod](http://forskning.no/content/var-forfaren-var-en-ribbemanet).
 	
 <figure style="width: 150px" class="align-left">
-  <img src="/assets/images/combjelly_wiki.jpg" alt="">
+  <img src="/assets/images/blog/combjelly_wiki.jpg" alt="">
   <figcaption>En moderne ribbemanet består kun av bløtvev. Foto: Wikipedia.org</figcaption>
 </figure>
 
