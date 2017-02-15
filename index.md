@@ -12,13 +12,13 @@ Check out our latest work on [microRNAs in the unicellular ancestors of animals]
     btn_label: "Read More"
   - title: "Recent posts"
     excerpt: "
-    - [Started adding scripts on RNA-Seq](https://jonbra.github.io/resources/abel/intro/)
+    - [Hverken fugl eller fisk, eller sopp, bare et nesledyr...](/blog/dendrogramma-oppdatering/)
     
-    - [Svampene tar tilbake førsteplassen](https://jonbra.github.io/blog/svampene-tar-tilbake-f%C3%B8rsteplassen/)
+    - [Started adding scripts on RNA-Seq](/resources/abel/intro/)
     
-    + [Ribbemaneter med skjelett](https://jonbra.github.io/blog/ribbemaneter-med-skjelett/)
+    - [Svampene tar tilbake førsteplassen](/blog/svampene-tar-tilbake-f%C3%B8rsteplassen/)
     
-    + [Hverken fugl eller fisk, eller sopp](https://jonbra.github.io/blog/hverken-fugl-eller-fisk/)
+    + [Ribbemaneter med skjelett](/blog/ribbemaneter-med-skjelett/)
     "
     url: "/blog/"
     btn_label: "Read More"
