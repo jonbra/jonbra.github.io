@@ -13,14 +13,15 @@ One of my interests is the early evolution of animals. How did the first animal 
 ### microRNAs
 microRNAs are short RNA molecules that regulate other genes and are essential in animals. I am trying to find out when microRNAs and the complementary protein machinery evolved in animals. Recently we have discovered for the first time micro RNAs in choanozoan species. The paper is not published, but you can check out the preprint on [bioRxiv.](http://biorxiv.org/content/early/2016/10/01/076190)
 
-![S. arctica][1]  
-*Sphaeroforma arctica, one of our unicellular ancestors. Photo: Jon Bråte*
+<figure style="width: 580px" class="align-center">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/Sphearoforma_Arctica_q22.jpg" alt="">
+  <figcaption><i>Sphaeroforma arctica</i>, one of our unicellular ancestors. Photo: Jon Bråte.</figcaption>
+</figure>
 
 ### Long non-coding RNAs
 Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. We are studying the developmental expression of lncRNAs in the earliest evolving animals, the sponges ([published in Proceedings B](/publications/02-2015-proceedings/)) and the comb jellies, to get a glimpse of how the last common ancestor of animals might have used lncRNAs.
 
-![Sycon ciliatum][2]  
-*in situ hybridization of lncRNAs expressed in the oocytes of the sponge Sycon ciliatum. Photo: Jon Bråte*
-
-[1]: /assets/images/research/Sphearoforma_Arctica_q22.jpg
-[2]: /assets/images/research/Sciliatum_insitu.jpg
+<figure style="width: 580px" class="align-center">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/Sciliatum_insitu.jpg" alt="">
+  <figcaption><i>in situ</i> hybridization of lncRNAs expressed in the oocytes of the sponge <i>Sycon ciliatum</i>. Photo: Jon Bråte.</figcaption>
+</figure>
