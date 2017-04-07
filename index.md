@@ -12,13 +12,13 @@ Check out our latest work on [microRNAs in the unicellular ancestors of animals]
     btn_label: "Read More"
   - title: "Recent posts"
     excerpt: "
+    - [Our MBE paper on single-cell transcriptomics of Rhizaria is out!](/blog/MBE_paper/)
+    
     - [Hverken fugl eller fisk, eller sopp, bare et nesledyr...](/blog/dendrogramma-oppdatering/)
     
     - [Started adding scripts on RNA-Seq](/resources/abel/intro/)
     
     - [Svampene tar tilbake førsteplassen](/blog/svampene-tar-tilbake-f%C3%B8rsteplassen/)
-    
-    + [Ribbemaneter med skjelett](/blog/ribbemaneter-med-skjelett/)
     "
     url: "/blog/"
     btn_label: "Read More"
