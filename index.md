@@ -4,10 +4,14 @@ author_profile: true
 permalink: /
 feature_row:
   - title: "Research"
-    excerpt: "My current research project is about understanding the significance of non-coding RNAs in the evolution of multicellular animals.
+    excerpt: "  
+      
+My current research project is about understanding the significance of non-coding RNAs in the evolution of multicellular animals.
 
 
-Check out our latest work on [microRNAs in the unicellular ancestors of animals](http://biorxiv.org/content/early/2016/10/01/076190)"
+Check out our latest work on [microRNAs in the unicellular ancestors of animals](http://biorxiv.org/content/early/2016/10/01/076190)"  
+  
+
     url: "/research/"
     btn_label: "Read More"
   - title: "Recent posts"
