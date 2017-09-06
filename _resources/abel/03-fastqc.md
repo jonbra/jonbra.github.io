@@ -13,7 +13,7 @@ The first thing you should do when getting new sequence data, either DNA or RNA,
 
 The easiest way to run FastQC is simply `fastqc *.fastq.gz` inside the directory with the sequence data (given that your sequence files ends with `fastq.gz`). 
 
-If you have a lot of sequence libraries it is wise to start FastQC as a slurm-job. Here is a script which loops over all the files ending with `.fastq.gz` and runs the program. Just paste this text into a file called `fastqc_loop.slurm` and run it by typing `sbatch fastqc_loop.slurm`:
+If you have a lot of sequence files it is wise to start FastQC as a slurm-job. Here is a script which loops over all the files ending with `.fastq.gz` and runs the program. Just paste this text into a file called `fastqc_loop.slurm` and run it by typing `sbatch fastqc_loop.slurm`:
 
 ```
 #!/bin/sh
