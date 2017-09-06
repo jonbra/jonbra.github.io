@@ -36,4 +36,4 @@ do
 done
 ```
 
-Here I assume that you are in a directory (preferably named `Scripts`) which is on the same level as the `SequenceData` directory and that the raw sequences are in a directory named `RawSeqs` inside `SequenceData`. The directory `Analyses` (with `FastQC` inside) should be on the same level as `SequenceData` and `Scripts` (see [this](https://jonbra.github.io/resources/setting-up-project/) setup). 
+Here I assume that you are in a directory (preferably named `Scripts`) which is on the same level as the `SequenceData` directory and that the raw sequences are in a directory named `RawSeqs` inside `SequenceData`. The directory `Analyses` (with `FastQC` inside) should be on the same level as `SequenceData` and `Scripts` (see [this](/resources/abel/setting-up-project/) setup). 
