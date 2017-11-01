@@ -11,9 +11,9 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-# gem "github-pages", group: :jekyll_plugins
-gem "jekyll", "~> 3.5"
-gem "minimal-mistakes-jekyll"
+gem "github-pages", group: :jekyll_plugins
+# gem "jekyll", "~> 3.5"
+# gem "minimal-mistakes-jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
