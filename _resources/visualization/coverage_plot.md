@@ -17,7 +17,7 @@ Using `samtools depth` and `R` to plot the coverage of mapping from bamfiles.
 
 ```
 # Using samtools v.1.3.1
-# Setting max depth to 1000000 with -d (8000 defafault).
+# Setting max depth to 1000000 with -d (8000 default).
 samtools depth -aa -d 1000000 input.bam | grep "contig_youwant_to_count" | gzip > coverage.txt.gz
 
 # Enter R
