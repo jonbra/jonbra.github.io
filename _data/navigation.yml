@@ -63,6 +63,8 @@ resources:
         url: /resources/abel/intro/
       - title: "Abel cheat sheet"
         url: https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet
+      - title: "Visualization"
+        url: /resources/visualization/coverage_plot/
 
 # Research sidebar links
 research:
