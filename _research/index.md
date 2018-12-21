@@ -11,7 +11,7 @@ One of my interests is the early evolution of animals. How did the first animal 
 ## Regulatory RNA
 
 ### MicroRNAs
-MicroRNAs are short RNA molecules that regulate other genes, and in animals microRNAs are an essential part of the genetic toolkit. I am trying to find out when microRNAs and the complementary protein machinery evolved in animals. We have recently discovered for the first time microRNAs in unicellular ancestors of animals, suggesting that these evolved much earlier than previously thought. The paper is not published, but you can check out the preprint on [bioRxiv.](http://biorxiv.org/content/early/2016/10/01/076190)
+MicroRNAs are short RNA molecules that regulate other genes, and in animals microRNAs are an essential part of the genetic toolkit. I am trying to find out when microRNAs and the complementary protein machinery evolved in animals. We have recently discovered for the first time microRNAs, as well as homolohs of the animal protein machinery which processes the miRNAs, in unicellular ancestors of animals, suggesting that these evolved much earlier than previously thought. The paper has recently been published in [Current Biology](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31063-7#%20). 
 
 <figure style="width: 580px" class="align-center">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/Sphearoforma_Arctica_q22.jpg" alt="">
