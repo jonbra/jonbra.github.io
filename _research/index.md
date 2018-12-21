@@ -18,6 +18,11 @@ MicroRNAs are short RNA molecules that regulate other genes, and in animals micr
   <figcaption><i>Sphaeroforma arctica</i>, one of our unicellular ancestors. Photo: Jon Bråte.</figcaption>
 </figure>
 
+<figure style="width: 580px" class="align-center">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/publications/2018-miRNA-Figure1.png" alt="">
+  <figcaption>Figure from the <i>Current Biology</i> paper showing the distribution of the Microprocessor proteins and miRNAs in animals and their single-celled relatives.</figcaption>
+</figure>
+
 ### Long non-coding RNAs
 Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. We are studying the developmental expression of lncRNAs in the earliest evolving animals, the sponges ([published in Proceedings B](/publications/02-2015-proceedings/)) and the comb jellies, to get a glimpse of how the last common ancestor of animals might have used lncRNAs.
 
