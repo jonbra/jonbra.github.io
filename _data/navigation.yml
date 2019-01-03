@@ -55,7 +55,7 @@ abel:
 resources:
   - title: Datasets
     children: 
-      - title: "Bråte et al. 2018. Current Biology."
+      - title: "Bråte et al. 2018. Current Biology"
         url: /resources/datasets/current_biology
       - title: "Sponge lincRNA data on Dryad"
         url: http://datadryad.org/resource/doi:10.5061/dryad.v83fj
