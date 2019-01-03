@@ -1,5 +1,5 @@
 ---
-title: "Datasets from Bråte et al. 2018. Current Biology"
+title: "Bråte et al. 2018. Current Biology"
 permalink: /resources/datasets/current_biology
 excerpt: "Datasets from Bråte et al. 2018. Current Biology"
 sidebar:
