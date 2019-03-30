@@ -15,7 +15,9 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-feed"
 #   gem "jemoji"
 #   gem "jekyll-data"
-#   gem "jekyll-include-cache"
+
+#   See here: https://github.com/mmistakes/minimal-mistakes/issues/1937
+    gem "jekyll-include-cache"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
