@@ -16,5 +16,6 @@ sidebar:
 
 ## [Cheat sheet](https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet) for the UiO Abel compute cluster
 
+## [Useful R codes](/resources/r_commands)
 
 
