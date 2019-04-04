@@ -10,7 +10,7 @@ My current research project is about understanding the significance of non-codin
 
 
 Check out our latest work on [microRNAs in the unicellular ancestors of animals](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31063-7#%20), 
-and on the [cellular development of _Sphaeroforma arctica_](https://www.biorxiv.org/content/10.1101/563726v1)"      
+and on the [cellular development of _Sphaeroforma arctica_](/publications/01-2019-Sar_development/)"      
     
     url: "/research/"
     btn_label: "Read More"
