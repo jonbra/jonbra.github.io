@@ -1,5 +1,5 @@
 ---
-title: Our pre-print on cellularization in _S. arctica_ is featured in preLights
+title: Our pre-print on cellularization in S. arctica is featured in preLights
 layout: single
 excerpt: "Our preprint on the development and cellularization of the ichthyosporean _S. arctica_ is featured in preLights"
 tags:
