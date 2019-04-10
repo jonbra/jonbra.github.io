@@ -4,6 +4,8 @@ source "https://rubygems.org"
 # https://www.christianengvall.se/upgrade-to-latest-jekyll-version/
 # gem "jekyll", "3.8.5"
 
+gem "jekyll-remote-theme"
+
 gem "github-pages", group: :jekyll_plugins
 
 gem "minimal-mistakes-jekyll"
