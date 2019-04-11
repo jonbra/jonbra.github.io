@@ -55,6 +55,8 @@ abel:
 resources:
   - title: Datasets
     children: 
+      - title: "Bråte et al. 2019. F1000Research"
+        url: /resources/datasets/F1000Research
       - title: "Bråte et al. 2018. Current Biology"
         url: /resources/datasets/current_biology
       - title: "Sponge lincRNA data on Dryad"
