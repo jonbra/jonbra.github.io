@@ -8,7 +8,9 @@ sidebar:
 
 {% include base_path %}
 
-## Datasets from our paper on [miRNAs in unicellular holozoans](/resources/datasets/current_biology)
+## [Datasets](/resources/datasets/F1000Research) from our paper on Hydrurus in [F1000Research](https://f1000research.com/articles/8-401/v1)
+
+## [Datasets](/resources/datasets/current_biology) from our paper on [miRNAs in unicellular holozoans](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31063-7#%20)
 
 ## Datasets from our [paper on sponge lincRNAs](http://rspb.royalsocietypublishing.org/content/282/1821/20151746) are on [Dryad](http://datadryad.org/resource/doi:10.5061/dryad.v83fj)
 
