@@ -24,9 +24,14 @@ MicroRNAs are short RNA molecules that regulate other genes, and in animals micr
 </figure>
 
 ### Long non-coding RNAs
-Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. We are studying the developmental expression of lncRNAs in the earliest evolving animals, the sponges ([published in Proceedings B](/publications/02-2015-proceedings/)) and the comb jellies, to get a glimpse of how the last common ancestor of animals might have used lncRNAs.
+Another type of regulatory genes are long non-coding RNAs. This is a class of recently discovered RNA genes. Very little is known about what these genes do, and even less is known about their evolutionary significance. To get a glimpse of how the last common ancestor of animals might have used lncRNAs, we have studied their expression dynamics during cellular development in the sponge _Sycon ciliatum_ ([published in Proceedings B](/publications/02-2015-proceedings/)) and in the ichthyosporean _Sphaeroforma arctica_ ([preprint available on _bioRxiv_](https://www.biorxiv.org/content/10.1101/563726v1)).  
 
 <figure style="width: 580px" class="align-center">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/Sciliatum_insitu.jpg" alt="">
   <figcaption><i>in situ</i> hybridization of lncRNAs expressed in the oocytes of the sponge <i>Sycon ciliatum</i>. Photo: Jon Bråte.</figcaption>
+</figure>
+
+<figure style="width: 580px" class="align-center">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/research/Sarctica_lncRNA_heatmap.jpg" alt="">
+  <figcaption> A heatmap of 70 lncRNAs with correlated expression patterns of coding genes during cellular development of <i>S. arctica</i>. Figure: Dudin <i> et al. </i> 2019. <i>bioRxiv</i>.</figcaption>
 </figure>
