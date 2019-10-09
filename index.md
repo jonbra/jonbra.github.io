@@ -17,13 +17,11 @@ and on the [cellular development of _Sphaeroforma arctica_](/publications/01-201
   - title: "Recent posts"
     excerpt: "
     
+    - [Our pre-print on cellularization in S. arctica is featured in preLights ](/blog/preLights_Sarctica/)
+    
     - [Forskning.no made a story about our research on micro RNAs](/blog/miRNA_forskning_no/)
     
     - [Our paper on microRNAs in animal relatives is out in Current Biology!](/blog/miRNA_paper/)
-    
-    - [Our MBE paper on single-cell transcriptomics of Rhizaria is out!](/blog/MBE_paper/)
-    
-    - [Hverken fugl eller fisk, eller sopp, bare et nesledyr...](/blog/dendrogramma-oppdatering/)
     "
     url: "/blog/"
     btn_label: "Read More"
