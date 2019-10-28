@@ -1,5 +1,5 @@
 ---
-title: "A unicellular relative of animals generates an epithelium-like cell layer by actomyosin-dependent cellularization"
+title: "A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization"
 excerpt: "Cellular development of Sphaeroforma arctica."
 header:
   teaser: assets/images/publications/2019-bioRxiv-teaser.png
@@ -25,10 +25,10 @@ gallery:
 
 ---
 
-Dudin, O., Ondracka, A., Grau-Bové, X., Haraldsen, A. A. B., Toyoda, A., Suga, H., Bråte, J. and Ruiz-Trillo, I. 2019. *bioRxiv*. [doi:10.1101/563726 ](https://www.biorxiv.org/content/10.1101/563726v1)
+Dudin, O., Ondracka, A., Grau-Bové, X., Haraldsen, A. A. B., Toyoda, A., Suga, H., **Bråte, J**. and Ruiz-Trillo, I. 2019. *eLife*. [doi:10.7554/eLife.49801](https://elifesciences.org/articles/49801)
 
 {% include gallery caption="" %}
 
 
 <h3>Abstract</h3>
-In animals, cellularization of a coenocyte is a specialized form of cytokinesis that results in the formation of a polarized epithelium during early embryonic development. It is characterized by coordinated assembly of an actomyosin network, which drives inward membrane invaginations. However, whether coordinated cellularization driven by membrane invagination exists outside animals is not known. To that end, we investigate cellularization in the ichthyosporean _Sphaeroforma arctica_, a close unicellular relative of animals. We show that the process of cellularization involves coordinated inward plasma membrane invaginations dependent on an actomyosin network, and reveal the temporal order of its assembly. This leads to the formation of a polarized layer of cells resembling an epithelium. We show that this epithelium-like stage is associated with tightly regulated transcriptional activation of genes involved in cell adhesion. Hereby we demonstrate the presence of a self-organized, clonally-generated, polarized layer of cells in a unicellular relative of animals.
+In animals, cellularization of a coenocyte is a specialized form of cytokinesis that results in the formation of a polarized epithelium during early embryonic development. It is characterized by coordinated assembly of an actomyosin network, which drives inward membrane invaginations. However, whether coordinated cellularization driven by membrane invagination exists outside animals is not known. To that end, we investigate cellularization in the ichthyosporean _Sphaeroforma arctica_, a close unicellular relative of animals. We show that the process of cellularization involves coordinated inward plasma membrane invaginations dependent on an actomyosin network and reveal the temporal order of its assembly. This leads to the formation of a polarized layer of cells resembling an epithelium. We show that this stage is associated with tightly regulated transcriptional activation of genes involved in cell adhesion. Hereby we demonstrate the presence of a self-organized, clonally-generated, polarized layer of cells in a unicellular relative of animals.
