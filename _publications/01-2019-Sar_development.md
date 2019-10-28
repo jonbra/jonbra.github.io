@@ -1,5 +1,6 @@
 ---
 title: "A unicellular relative of animals generates a layer of polarized cells by actomyosin-dependent cellularization"
+permalink: /publications/Sar_development
 excerpt: "Cellular development of Sphaeroforma arctica."
 header:
   teaser: assets/images/publications/2019-bioRxiv-teaser.png
