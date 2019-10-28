@@ -1,5 +1,6 @@
 ---
 title: "Unicellular origin of the animal microRNA machinery"
+permalink: /publications/miRNA_Current_Biology
 excerpt: "microRNA genes and the microRNA processing machinery discovered for the first time among the unicellular ancestors of animals."
 header:
   teaser: assets/images/publications/2018-miRNA-teaser.jpg
