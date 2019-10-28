@@ -1,5 +1,6 @@
 ---
 title: "Single cell transcriptomics, mega-phylogeny and the genetic basis of morphological innovations in Rhizaria"
+permalink: /publications/Rhizaria-single-cell
 excerpt: "We reveal novel genetic innovations in key cytoskeletal genes in Rhizaria using single-cell transcriptomics on two uncultivated species."
 header:
   teaser: assets/images/publications/MBE_2017_teaser.png
