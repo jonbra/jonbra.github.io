@@ -8,6 +8,8 @@ sidebar:
 
 {% include base_path %}
 
+## [Data](/resources/datasets/eLife_2019) from our paper on ichthyosporean development in [eLife](https://elifesciences.org/articles/49801)
+
 ## [Datasets](/resources/datasets/F1000Research) from our paper on Hydrurus in [F1000Research](https://f1000research.com/articles/8-401/v1)
 
 ## [Datasets](/resources/datasets/current_biology) from our paper on [miRNAs in unicellular holozoans](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31063-7#%20)

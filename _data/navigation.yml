@@ -55,6 +55,8 @@ abel:
 resources:
   - title: Datasets
     children: 
+      - title: "Dudin et al. 2019. eLife"
+        url: /resources/datasets/eLife_2019
       - title: "Bråte et al. 2019. F1000Research"
         url: /resources/datasets/F1000Research
       - title: "Bråte et al. 2018. Current Biology"
