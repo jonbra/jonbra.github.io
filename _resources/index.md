@@ -2,11 +2,13 @@
 title: "Resources"
 permalink: /resources/
 excerpt: "Resources"
-sidebar: 
+sidebar:
   nav: "resources"
 ---
 
 {% include base_path %}
+
+## [Datasets](https://data.mendeley.com/datasets/89xh5zp6zr/1) from our paper on Ulvophycean phylogeny and evolution in [Journal of Phycology](https://onlinelibrary.wiley.com/doi/abs/10.1111/jpy.13168)
 
 ## [Data](/resources/datasets/eLife_2019) from our paper on ichthyosporean development in [eLife](https://elifesciences.org/articles/49801)
 
@@ -18,8 +20,6 @@ sidebar:
 
 ## [Scripts and workflows using the Abel super computer at UiO](/resources/abel/intro/)
 
-## [Cheat sheet](https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet) for the UiO Abel compute cluster
+## [Cheat sheet](https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet) for the Norwegian HPC resources
 
 ## [Useful R codes](/resources/r_commands)
-
-

@@ -14,31 +14,31 @@ main:
 
   - title: "Resources"
     url: /resources/
-    
+
   - title: "CV"
     url: /CV_Jon_Brate-HomePage.pdf
-    
+
 #  - title: "Abel"
 #    url: https://jonbra.github.io/abel/
 
 # Abel sidebar links
 abel:
   - title: Working on Abel
-    children: 
+    children:
       - title: "Introduction"
         url: /resources/abel/intro/
       - title: "Setting up a project"
-        url: /resources/abel/setting-up-project/  
-              
+        url: /resources/abel/setting-up-project/
+
   - title: Quality assessment
-    children:         
+    children:
       - title: "FastQC"
         url: /resources/abel/fastqc/
       - title: "Quality trimming"
-        url: /resources/abel/trimming/        
-        
+        url: /resources/abel/trimming/
+
   - title: Reads mapping
-    children:         
+    children:
       - title: "Mapping to reference genome"
         url: /resources/abel/mapping/
       - title: "de novo transcriptome assembly"
@@ -47,14 +47,16 @@ abel:
         url: /resources/abel/de-novo-mapping/
 
   - title: Expression counts
-    children:         
+    children:
       - title: "Using HTSeq"
         url: /resources/abel/htseq/
 
 # Resources sidebar links
 resources:
   - title: Datasets
-    children: 
+    children:
+      - title: "Gulbrandsen et al. 2021. Journal of Phycology"
+        url: https://data.mendeley.com/datasets/89xh5zp6zr/1
       - title: "Dudin et al. 2019. eLife"
         url: /resources/datasets/eLife_2019
       - title: "Bråte et al. 2019. F1000Research"
@@ -64,10 +66,10 @@ resources:
       - title: "Sponge lincRNA data on Dryad"
         url: http://datadryad.org/resource/doi:10.5061/dryad.v83fj
   - title: RNA-Seq scripts
-    children:         
+    children:
       - title: "RNA-Seq analysis on the UiO compute cluster"
         url: /resources/abel/intro/
-      - title: "Abel cheat sheet"
+      - title: "HPC cheat sheet"
         url: https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet
       - title: "Visualization"
         url: /resources/visualization/coverage_plot/
