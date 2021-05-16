@@ -8,7 +8,7 @@ sidebar:
 
 {% include base_path %}
 
-## [Datasets](https://data.mendeley.com/datasets/89xh5zp6zr/1) from our paper on Ulvophycean phylogeny and evolution in [Journal of Phycology](https://onlinelibrary.wiley.com/doi/abs/10.1111/jpy.13168)
+## [Datasets](/resources/datasets/JPY_2021) from our paper on Ulvophycean phylogeny and evolution in [Journal of Phycology](https://onlinelibrary.wiley.com/doi/abs/10.1111/jpy.13168)
 
 ## [Data](/resources/datasets/eLife_2019) from our paper on ichthyosporean development in [eLife](https://elifesciences.org/articles/49801)
 
