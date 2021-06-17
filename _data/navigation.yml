@@ -55,6 +55,8 @@ abel:
 resources:
   - title: Datasets
     children:
+      - title: "Andresen et al. 2021. Scientific Reports"
+        url: https://www.ebi.ac.uk/ena/browser/view/PRJEB40379
       - title: "Gulbrandsen et al. 2021. Journal of Phycology"
         url: /resources/datasets/JPY_2021
       - title: "Dudin et al. 2019. eLife"

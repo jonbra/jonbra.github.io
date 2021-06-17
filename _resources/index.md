@@ -8,6 +8,8 @@ sidebar:
 
 {% include base_path %}
 
+## [Datasets](https://www.ebi.ac.uk/ena/browser/view/PRJEB40379) from our paper on genome sequencing of *Acetabularia acetabulum* in [Scientifc Reports](https://www.nature.com/articles/s41598-021-92092-4)
+
 ## [Datasets](/resources/datasets/JPY_2021) from our paper on Ulvophycean phylogeny and evolution in [Journal of Phycology](https://onlinelibrary.wiley.com/doi/abs/10.1111/jpy.13168)
 
 ## [Data](/resources/datasets/eLife_2019) from our paper on ichthyosporean development in [eLife](https://elifesciences.org/articles/49801)
