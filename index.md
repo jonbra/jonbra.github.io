@@ -13,41 +13,4 @@ I work as a researcher at the [Norwegian Institute of Public Health (NIPH)](http
 
 I am interested in a wide variety of topics including evolution and phylogenetics, bioinformatics, genomics and transcriptomics, eukaryote diversity and cell biology, and recently viral genomics.  
 
-Please contact me at [jon.brate[at]fhi.no](mailto:jon.brate@fhi.no) or [jon.brate[at]ibv.uio.no](mailto:jon.brate@ibv.uio.no).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  jon.brate@ibv.uio.no).
+Please contact me at [NIPH email](mailto:jon.brate@fhi.no) or [UiO email](mailto:jon.brate@ibv.uio.no).
