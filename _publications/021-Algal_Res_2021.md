@@ -23,7 +23,7 @@ gallery:
     alt: "Figure 5"
 ---
 
-Andresen, I. J., Orr. R. J. S., Shalchian-Tabrizi, K. and **Bråte, J**. 2021. *Algal Research*. [doi:10.1016/j.algal.2021.102440](https://www.sciencedirect.com/science/article/pii/S2211926421002599#f0005)
+Andresen, I. J., Orr. R. J. S., Shalchian-Tabrizi, K. and **Bråte, J**. 2021. *Algal Research*. [doi:10.1016/j.algal.2021.102440](https://www.sciencedirect.com/science/article/pii/S2211926421002599)
 
 {% include gallery caption="" %}
 
