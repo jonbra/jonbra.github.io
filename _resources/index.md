@@ -25,5 +25,3 @@ sidebar:
 ## [Scripts and workflows using the Abel super computer at UiO](/resources/abel/intro/)
 
 ## [Cheat sheet](https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet) for the Norwegian HPC resources
-
-## [Useful R codes](/resources/r_commands)
