@@ -67,6 +67,12 @@ resources:
         url: /resources/datasets/current_biology
       - title: "Sponge lincRNA data on Dryad"
         url: http://datadryad.org/resource/doi:10.5061/dryad.v83fj
+  - title: R
+    children:
+      - title: "SARS-CoV-2"
+        url: /resources/R/nextclade_mutations
+      - title: "Tidyverse snippets"
+        url: /resources/R/tidyverse
   - title: RNA-Seq scripts
     children:
       - title: "RNA-Seq analysis on the UiO compute cluster"
