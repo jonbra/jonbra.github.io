@@ -36,7 +36,7 @@ nextclade %>%
         panel.background = element_blank())
 ```
 
-![Nextclade](assets/images/nextclade.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/nextclade.png" alt="">
 
 ```
 # Only Spike protein
@@ -55,4 +55,4 @@ nextclade %>%
         panel.background = element_blank())
 ```
 
-![All mutations](assets/images/nextclade_spike.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/nextclade_spike.png" alt="">
