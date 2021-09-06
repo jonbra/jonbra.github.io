@@ -24,3 +24,6 @@ some_tibble %>%
 some_tibble %>%
   mutate(New_col = str_remove_all(Old_col, "pattern to remove"))
 ```
+
+## Move every other row into two columns
+<script src="https://gist.github.com/jonbra/f8936352bb21717e02ef4dbf9e486920.js"></script>
