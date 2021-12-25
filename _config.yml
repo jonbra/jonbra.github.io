@@ -8,7 +8,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Home"
+title                    : "About"
 title_separator          : "-"
 name                     : "Jon Bråte"
 description              : "A place to display my research"
@@ -295,7 +295,7 @@ defaults:
       share: false
       comments: true
       sidebar:
-        nav: 
+        nav:
 
 # Collections
 collections:
