@@ -21,6 +21,8 @@ gallery:
   - url: assets/images/publications/2021-Algal_Res-fig5.jpg
     image_path: assets/images/publications/2021-Algal_Res-fig5.jpg
     alt: "Figure 5"
+tags:
+  - acetabularia
 ---
 
 Andresen, I. J., Orr. R. J. S., Shalchian-Tabrizi, K. and **Bråte, J**. 2021. *Algal Research*. [doi:10.1016/j.algal.2021.102440](https://www.sciencedirect.com/science/article/pii/S2211926421002599)

@@ -18,6 +18,8 @@ gallery:
   - url: assets/images/publications/2021-Virus_Evol-fig4.jpeg
     image_path: assets/images/publications/2021-Virus_Evol-fig4.jpeg
     alt: "Figure 4"
+tags:
+  - SARS-CoV-2
 ---
 
 Osnes, N. M., Alfsnes, K. **Bråte, J**., Garcia, I., Riis, R. K., Instefjord, K. H., Elshaug, H., Vollan, H. S., Moen, L. V., Pedersen, B. N., Caugant, D. A., Stene-Johansen, K., Hungnes, O., Bragstad, K., Brynildsrud, O. B. and Eldholm, V. 2021. *Virus Evolution*. [doi:10.1093/ve/veab086](https://pubmed.ncbi.nlm.nih.gov/34659798/)

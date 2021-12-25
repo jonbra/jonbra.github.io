@@ -12,7 +12,8 @@ gallery:
   - url: assets/images/publications/JPY_2021-Figure2.png
     image_path: assets/images/publications/JPY_2021-Figure2.png
     alt: "Figure 2. Testing the impact of fast evolving sites and missing data"
-
+tags:
+  - acetabularia
 ---
 
 Gulbrandsen, Ø., Andresen, I. J., Krabberød, A. K., **Bråte, J**. and Shalchian-Tabrizi, K. 2021. *Journal of Phycology*. [doi:10.1111/jpy.13168k](https://onlinelibrary.wiley.com/doi/abs/10.1111/jpy.13168)
