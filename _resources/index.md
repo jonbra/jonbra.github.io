@@ -8,7 +8,7 @@ sidebar:
 
 {% include base_path %}
 
-### Data
+### Datasets
 [Here](/resources/datasets) are links to dataset from the different publications I have contributed to.
 
 ### Computer code
