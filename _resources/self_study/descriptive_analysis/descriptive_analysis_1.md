@@ -38,10 +38,8 @@ Variables can be **numerical** or **categorical**.
 
 All types of variables can be analysed with either numerical or graphical methods.
 
-<figure style="width: 580px" class="align-center">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/numeric_categorical_variables_flowchart_full.png" alt="">
   <figcaption>From the book R for Epidemiology (https://www.r4epi.com/)</figcaption>
-</figure>
 
 
 ## Factors in R
@@ -51,7 +49,7 @@ All types of variables can be analysed with either numerical or graphical method
 ### Coercing variables into factors
 The code below shows one method for coercing a numeric vector into a factor.
 
-```
+```r
 # Load dplyr for tibble(), pipe and mutate()
 library(dplyr)
 
@@ -67,7 +65,7 @@ demo <- tibble(
 ```
 
 Using `mutate()` to add a factor column.
-```
+```r
 demo <- demo %>%
   mutate(
     edu_f = factor(
@@ -81,7 +79,7 @@ demo <- demo %>%
   )
 ```
 
-```
+```r
 demo
 # A tibble: 4 × 5
   id      age   edu edu_char              edu_f                
@@ -98,7 +96,7 @@ To create a vector of factors we use the `factor()` function. And we pass the nu
 
 Even though the factors look just like the character vector when they are printed, they are actually integers under the hood.
 
-```
+```r
 as.numeric(demo$edu_char)
 ## Warning: NAs introduced by coercion
 ## [1] NA NA NA NA
@@ -108,7 +106,7 @@ as.numeric(demo$edu_f)
 ```
 
 Factors allows us to have _unobserved_ values in our data:
-```
+```r
 demo <- demo %>%
   mutate(
     edu_5cat_f = factor(
@@ -130,7 +128,7 @@ Less than high school  High school graduate          Some college
 ```
 
 We can also coerce a character vector into factors:
-```
+```r
 demo <- demo %>%
   mutate(
     edu_f_from_char = factor(
@@ -147,7 +145,7 @@ Here, because the levels already _are_ character strings, we don't need to add a
 
 ## Create Height and Weight Data
 
-```
+```r
 library(dplyr)
 # Simulate some data
 height_and_weight_20 <- tibble(
@@ -171,7 +169,7 @@ height_and_weight_20 <- tibble(
 
 ## Calculating frequencies
 The first thing we want to do is to generate some summary statistics. The `summarise()` function is useful for this. We can use another function, `n()`, inside `summarise()` to count rows. By default, it will count all the rows in the data frame (there are 20 rows):
-```
+```r
 height_and_weight_20 %>%
   summarise(n())
 
@@ -183,7 +181,7 @@ height_and_weight_20 %>%
 The output is a new data frame.
 
 Now we want to count how many rows have the value Female and Male in the `sex_f` column. Then first group the data using `group_by()`:
-```
+```r
 height_and_weight_20 %>%
   group_by(sex_f) %>%
   summarise(n())
@@ -196,14 +194,14 @@ height_and_weight_20 %>%
 ```
 
 Using the `n()` function along will create a column with the counts called `n()`. Name the count column like this:
-```
+```r
 height_and_weight_20 %>%
   group_by(sex_f) %>%
   summarise(n = n())
 ```
 
 Actually, grouping and counting can be done in a single step using the `count()` function (the `add_count()` function will add the counts as a new column of the original data frame instead of creating a new data frame):
-```
+```r
 height_and_weight_20 %>%
   count(sex_f)
 
@@ -216,7 +214,7 @@ height_and_weight_20 %>%
 
 ## Calculating percentages
 Because the `count()` function produces a data frame (or a tibble) we can pipe the output into other functions, like `mutate()`:
-```
+```r
 height_and_weight_20 %>%
   count(sex_f) %>%
   mutate(prop = n / sum(n))
@@ -226,11 +224,11 @@ height_and_weight_20 %>%
 ##   <fct>  <int> <dbl>
 ## 1 Male       8   0.4
 ## 2 Female    12   0.6
-```
+```r
 The `count()` function produces a column named `n`. And here we create a new column with n divided by the sum of all numbers in the n column.
 
 To calculate the percentage:
-```
+```r
 height_and_weight_20 %>%
   count(sex_f) %>%
   mutate(percent = n / sum(n) * 100)
@@ -244,7 +242,7 @@ height_and_weight_20 %>%
 
 ## Missing data
 Let's replace some values in `sex_f` with `NA`:
-```
+```r
 height_and_weight_20 <- height_and_weight_20 %>%
   mutate(sex_f = replace(sex, c(2, 9), NA)) %>%
   print()
@@ -274,7 +272,7 @@ height_and_weight_20 <- height_and_weight_20 %>%
 ```
 
 If we summarise and calculate the frequencies and precentages like above, the missing values are treated as a category of `sex_f`. Sometimes that is ok, and it's a nice way of displaying the data.
-```
+```r
 height_and_weight_20 %>%
   count(sex_f) %>%
   mutate(percent = n / sum(n) * 100)
@@ -288,7 +286,7 @@ height_and_weight_20 %>%
 ```
 
 If we want to do the calculations on only non-missing data (also known as **complete case analysis**) we can for example filter out the rows with missing values for `sex_f` first:
-```
+```r
 height_and_weight_20 %>%
   filter(!is.na(sex_f)) %>%
   count(sex_f) %>%
