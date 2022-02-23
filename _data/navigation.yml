@@ -83,6 +83,8 @@ resources:
     children:
       - title: "Descriptive analysis 1"
         url: /resources/R/descriptive_analysis_1
+      - title: "Descriptive analysis 2"
+        url: /resources/R/descriptive_analysis_2
 
 # Research sidebar links
 research:
