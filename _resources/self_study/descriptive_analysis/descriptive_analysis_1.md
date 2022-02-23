@@ -285,7 +285,7 @@ height_and_weight_20 %>%
 ## 3    NA     2      10
 ```
 
-If we want to do the calculations on only non-missing data (also known as **complete case analysis**) we can for example filter out the rows with missing values for `sex_f` first:
+If we want to do the calculations on only non-missing data (also known as **complete case analysis**) we can for example filter out the rows with missing values for `sex_f` first (note that many R functions often have the argument `na.rm` that can be used to drop NAs):
 ```r
 height_and_weight_20 %>%
   filter(!is.na(sex_f)) %>%
