@@ -79,12 +79,10 @@ resources:
         url: https://github.com/jonbra/NGS-Abel/wiki/Abel-cheat-sheet
       - title: "Visualization"
         url: /resources/visualization/coverage_plot/
-  - title: Data analysis using R
+  - title: Study notes
     children:
-      - title: "Descriptive analysis 1"
-        url: /resources/R/descriptive_analysis_1
-      - title: "Descriptive analysis 2"
-        url: /resources/R/descriptive_analysis_2
+      - title: "R for Epidemiology"
+        url: /resources/R/epidemiology
 
 # Research sidebar links
 research:
