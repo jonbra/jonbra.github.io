@@ -545,8 +545,9 @@ The range is often useful, but it doesn't tell anything about the distribution. 
 ## Variance
 Variance measures the _variability from the average or the mean_. You take the difference of each observation in the data set from the mean, squaring the differences (to get positive values), and dividing the sum of these differences to the mean by the number of observations in the data set. In this way, the variance takes into account the spread of all the data points in the data set.
 
-The variance is often denoted `s^2`
+The variance is often denoted <img src="https://render.githubusercontent.com/render/math?math=s^2">  
+[](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)  
+In R, the function `var()` can calculate the variance.  
 
-In R, the function `var()` can calculate the variance.
 
 ## Standard Deviation
