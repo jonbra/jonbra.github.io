@@ -34,6 +34,7 @@ tags:
     + [Range](#range)
     + [Variance](#variance)
     + [Standard Deviation](#standard-deviation)
+    + [Comparing distributions](#comparing-distributions)
 
 ---------------------
 These are my notes from reading parts of the book [R for Epidemiology](https://www.r4epi.com/).  
@@ -545,9 +546,42 @@ The range is often useful, but it doesn't tell anything about the distribution. 
 ## Variance
 Variance measures the _variability from the average or the mean_. You take the difference of each observation in the data set from the mean, squaring the differences (to get positive values), and dividing the sum of these differences to the mean by the number of observations in the data set. In this way, the variance takes into account the spread of all the data points in the data set.
 
-The variance is often denoted <img src="https://render.githubusercontent.com/render/math?math=s^2">  
+The variance of a sample is often denoted <img src="https://render.githubusercontent.com/render/math?math=s^2">  
 [](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)  
 In R, the function `var()` can calculate the variance.  
 
+[Top](#contents)  
 
-## Standard Deviation
+## Standard Deviation  
+The square root of the variance is the standard deviation (SD). The sample standard deviation is denoted <img src="https://render.githubusercontent.com/render/math?math=s">, while the population standard deviation is denoted <img src="https://render.githubusercontent.com/render/math?math={\sigma}">.  
+
+Standard deviation of a sample:
+<img src="https://render.githubusercontent.com/render/math?math=\sqrt{s^2}">  
+
+So in this cases, the variance is 120 and the standard deviation is <img src="https://render.githubusercontent.com/render/math?math=\sqrt{120}"> which is 10.95 inches (notice the original units).   
+
+What is the standard deviation? The standard deviation is similar to the variance, however as the variance is in squared units it isn't that intuitive. Because standard deviation takes the root of the variance we get the original units. Hence, the standard deviation is more easy to compare against the original numbers, and to other samples. A low standard deviation indicates that the values of the samples are close to the mean, while a high standard deviation indicates a more spread distribution.   
+
+If the values in our sample are normally distributed, then the percentage of values within each standard deviation from the mean follow these rules:
+
+| Standard deviations  | Percent of values |
+| ------------- | ------------- |
+| 1  | 68%  |
+| 2  | 95%  |
+| 3  | 99%  |  
+
+In other words, when we know that the mean of our sample is 68.4 inches, and the standard deviation is 10.95 inches we know that 68% of all the students are between 57.45-79.35 inches (1 SD lower and higher than the mean).  
+
+In R we can generate normally distributed data with a given mean and a given standard deviation using the `rnorm` function (this creates random numbers with a given mean and SD):  
+```r
+rnorm(n=20, mean=68.4, sd=10.05))
+
+ [1] 63.69113 68.89975 84.73759 56.37946 67.44818 63.19714
+ [7] 80.50921 58.63412 47.03020 72.54318 74.93411 91.41247
+[13] 60.29886 63.09570 54.25223 83.97762 69.61411 74.98939
+[19] 65.16676 83.72266
+```  
+
+[Top](#contents)  
+
+## Comparing distributions
