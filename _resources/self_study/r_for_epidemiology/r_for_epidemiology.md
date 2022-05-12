@@ -19,6 +19,10 @@ tags:
   - range
   - variance
   - standard_deviation
+  - correlation
+  - univariate
+  - bivatiate
+  - sample
 ---
 
 ## Contents
@@ -35,6 +39,8 @@ tags:
     + [Variance](#variance)
     + [Standard Deviation](#standard-deviation)
     + [Comparing distributions](#comparing-distributions)
+  * [Bivariate analysis](#bivariate-analysis)
+    + [Pearson Correlation Coefficient](#pearson-correlation-coefficient)
 
 ---------------------
 These are my notes from reading parts of the book [R for Epidemiology](https://www.r4epi.com/).  
@@ -588,3 +594,143 @@ rnorm(n=20, mean=68.4, sd=10.05))
 The standard deviation and the variance is not always intuitive and immediately easy to interpret. It is often useful to **compare** them. T he variance if often largen when the values are clustered at either end of the range, i.e. far away from the mean.   
   
 [Top](#contents)  
+
+# Bivariate analysis
+**Univariate** analysis is when analysing or describing a single numerical or categorical variable. That is what we have done above, i.e. looking at height or weight.  
+
+**Bivariate** analysis is when you describe _relationships_ between variables.   
+
+A variable can be an _outcome_ or a _predictor_:  
+1. **Outcome variable**: The variable whose value we are attempting to predict, estimate, or determine is the outcome variable. The outcome variable may also be referred to as the _dependent variable_ or the _response variable_.  
+2. **Predictor variable**: The variable that we think will _determine, or at least help us predict, the value of the outcome variable_ is called the predictor variable. The predictor variable may also be referred to as the _independent variable_ or the _explanatory variable_.  
+
+So if we want to investigate the impact of exercise on heart rate, the amount of exercise is the predictor variable and heart rate is the outcome variable.   
+
+## Pearson Correlation Coefficient  
+The Pearson Correlation Coefficient is referred to as "rho" and can be denoted <img src="https://render.githubusercontent.com/render/math?math={\rho}">. The Pearson Correlation Coefficient is a measure of the linear relationship between two values and it can range from -1 to 1 where a value of 0 means that there is no linear correlation between two variables, -1 means a perfect negative correlation and 1 a perfect positive correlation (the two variables vary in either opposite or the same directions).   
+
+Note that the relationship needs to be linear in order to estimate rho correctly. Therefore, plotting the values is useful to inspect the linearity and identify potential outliers.  
+
+Let's simulate some data using R and the `sample()` function. The `sample()` samples random numbers from a vector or elements, x, and one can allow for the same numbers to be selected more than once `replace = TRUE` or not (`FALSE`).  
+
+```r
+set.seed(123)
+df <- tibble(
+  id = 1:20,
+  x  = sample(x = 0:100, size = 20, replace = TRUE),
+  y  = sample(x = 0:100, size = 20, replace = TRUE)
+)
+df
+
+# A tibble: 20 × 3
+      id     x     y
+   <int> <int> <int>
+ 1     1    30    71
+ 2     2    78    25
+ 3     3    50     6
+ 4     4    13    41
+ 5     5    66     8
+ 6     6    41    82
+ 7     7    49    35
+ 8     8    42    77
+ 9     9   100    80
+10    10    13    42
+11    11    24    75
+12    12    89    14
+13    13    90    31
+14    14    68     6
+15    15    90     8
+16    16    56    40
+17    17    91    73
+18    18     8    22
+19    19    92    26
+20    20    98    59
+```  
+
+Because the numbers in the x and y columns are chosen randomly there should be no correlation between x and y. Let's first plot the numbers to get a feel for what the two distributions look like:
+
+```r
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  theme_bw()
+```
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/correlation_1.png" alt="">
+
+And to calculate rho using R: 
+```r
+cor.test(df$x, df$y, method = "pearson")
+```
+```
+	Pearson's product-moment correlation
+
+data:  df$x and df$y
+t = -0.60281, df = 18, p-value = 0.5542
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5490152  0.3218878
+sample estimates:
+       cor 
+-0.1406703 
+```
+
+Here rho is -0.14 which is slightly negative (negative correlation, x and y tend to vary in opposite directions) but too close to zero to consider this a true correlation. Rules of thumb for Pearson's rho are often: 
++-0.1 = weak correlation  
++-0.3 = medium correlation  
++-0.5 = strong correlation  
+However, although this is useful these rules needs to be interpreted with caution. The `cor.test` also gives out a p-value, and a p-value of 0.55 in this case shows that the two variables are not correlated.  
+
+More realistic data with weights and heights of different people:
+```r
+class <- tibble(
+  ht_in = c(70, 63, 62, 67, 67, 58, 64, 69, 65, 68, 63, 68, 69, 66, 67, 65, 
+            64, 75, 67, 63, 60, 67, 64, 73, 62, 69, 67, 62, 68, 66, 66, 62, 
+            64, 68, NA, 68, 70, 68, 68, 66, 71, 61, 62, 64, 64, 63, 67, 66, 
+            69, 76, NA, 63, 64, 65, 65, 71, 66, 65, 65, 71, 64, 71, 60, 62, 
+            61, 69, 66, NA),
+  wt_lbs = c(216, 106, 145, 195, 143, 125, 138, 140, 158, 167, 145, 297, 146, 
+             125, 111, 125, 130, 182, 170, 121, 98, 150, 132, 250, 137, 124, 
+             186, 148, 134, 155, 122, 142, 110, 132, 188, 176, 188, 166, 136, 
+             147, 178, 125, 102, 140, 139, 60, 147, 147, 141, 232, 186, 212, 
+             110, 110, 115, 154, 140, 150, 130, NA, 171, 156, 92, 122, 102, 
+             163, 141, NA)
+)
+```
+Make a scatter plot to look at the relationship between weight and height:  
+```r
+ggplot(class, aes(ht_in, wt_lbs)) +
+  geom_jitter() + # avoid overlapping points
+  theme_classic()
+```
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/correlation_2.png" alt="">  
+
+```r
+cor.test(class$ht_in, class$wt_lbs)
+```
+```
+## 
+##  Pearson's product-moment correlation
+## 
+## data:  class$ht_in and class$wt_lbs
+## t = 5.7398, df = 62, p-value = 3.051e-07
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.4013642 0.7292714
+## sample estimates:
+##       cor 
+## 0.5890576
+```
+
+Although the dots don't line up perfectly, there's clearly a positive trend that increasing height means increasing weight. We also see that rho is 0.58 which is a strong correlation. And the p-value is very small (3.051e-07), meaning that observing these relationships by random (if the true value of the correlation of the population from which our sample was drawn was zero - this is the null hypothesis) is extremely unlikely.  
+
+Let's add a regression line to the plot which summarises the relationshop between the two variables. We can add `geom_smooth()` with the method `lm` (linear model) to add an Ordinary Least Squares regression line:
+```r
+ggplot(class, aes(ht_in, wt_lbs)) +
+  geom_smooth(method = "lm") +
+  geom_jitter() +
+  theme_classic()
+```
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/correlation_3.png" alt="">  
+
+The regression line has an upward slope, meaning that on average as height increases weight will also increase. One can think of the regression line as cutting through the middle of all the points and representing the average change in the y value given a one-unit change in the x value. The shaded area around the regression line shows the 95% confidence interval (default) from the predictions of the model.
