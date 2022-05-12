@@ -558,7 +558,7 @@ The square root of the variance is the standard deviation (SD). The sample stand
 Standard deviation of a sample:
 <img src="https://render.githubusercontent.com/render/math?math=\sqrt{s^2}">  
 
-So in this cases, the variance is 120 and the standard deviation is <img src="https://render.githubusercontent.com/render/math?math=\sqrt{120}"> which is 10.95 inches (notice the original units).   
+So in this case, the variance is 120 and the standard deviation is <img src="https://render.githubusercontent.com/render/math?math=\sqrt{120}"> which is 10.95 inches (notice the original units).   
 
 What is the standard deviation? The standard deviation is similar to the variance, however as the variance is in squared units it isn't that intuitive. Because standard deviation takes the root of the variance we get the original units. Hence, the standard deviation is more easy to compare against the original numbers, and to other samples. A low standard deviation indicates that the values of the samples are close to the mean, while a high standard deviation indicates a more spread distribution.   
 
@@ -585,3 +585,6 @@ rnorm(n=20, mean=68.4, sd=10.05))
 [Top](#contents)  
 
 ## Comparing distributions
+The standard deviation and the variance is not always intuitive and immediately easy to interpret. It is often useful to **compare** them. T he variance if often largen when the values are clustered at either end of the range, i.e. far away from the mean.   
+  
+[Top](#contents)  
