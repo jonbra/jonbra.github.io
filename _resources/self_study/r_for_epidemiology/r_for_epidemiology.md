@@ -21,7 +21,7 @@ tags:
   - standard_deviation
   - correlation
   - univariate
-  - bivatiate
+  - bivariate
   - sample
 ---
 
@@ -41,6 +41,7 @@ tags:
     + [Comparing distributions](#comparing-distributions)
   * [Bivariate analysis](#bivariate-analysis)
     + [Pearson Correlation Coefficient](#pearson-correlation-coefficient)
+    + [Continuous vs. categorical variable](#continuous-vs.-categorical-variable)
 
 ---------------------
 These are my notes from reading parts of the book [R for Epidemiology](https://www.r4epi.com/).  
@@ -733,4 +734,153 @@ ggplot(class, aes(ht_in, wt_lbs)) +
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/correlation_3.png" alt="">  
 
-The regression line has an upward slope, meaning that on average as height increases weight will also increase. One can think of the regression line as cutting through the middle of all the points and representing the average change in the y value given a one-unit change in the x value. The shaded area around the regression line shows the 95% confidence interval (default) from the predictions of the model.
+The regression line has an upward slope, meaning that on average as height increases weight will also increase. One can think of the regression line as cutting through the middle of all the points and representing the average change in the y value given a one-unit change in the x value. The shaded area around the regression line shows the 95% confidence interval (default) from the predictions of the model.  
+
+[Top](#contents)  
+
+## Continuous vs. categorical variable  
+Earlier we looked at the overall mean of an entire dataset, like height. But if we want to compare height within gender we perform bivariate analysis of a continuous vs. categorical variable. In this case, we often use the mean of the continuous variable.  
+
+Using the same data as before:  
+```r
+class <- tibble(
+  age       = c(32, 30, 32, 29, 24, 38, 25, 24, 48, 29, 22, 29, 24, 28, 24, 25, 
+                25, 22, 25, 24, 25, 24, 23, 24, 31, 24, 29, 24, 22, 23, 26, 23, 
+                24, 25, 24, 33, 27, 25, 26, 26, 26, 26, 26, 27, 24, 43, 25, 24, 
+                27, 28, 29, 24, 26, 28, 25, 24, 26, 24, 26, 31, 24, 26, 31, 34, 
+                26, 25, 27, NA),
+  age_group = c(2, 2, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+                1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 
+                1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 
+                2, 1, 1, 1, NA),
+  gender    = c(2, 1, 1, 2, 1, 1, 1, 2, 2, 2, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 1, 
+                1, 1, 2, 1, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 2, 2, 1, 
+                1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 1, 
+                1, 1, 2, 1, NA),
+  ht_in     = c(70, 63, 62, 67, 67, 58, 64, 69, 65, 68, 63, 68, 69, 66, 67, 65, 
+                64, 75, 67, 63, 60, 67, 64, 73, 62, 69, 67, 62, 68, 66, 66, 62, 
+                64, 68, NA, 68, 70, 68, 68, 66, 71, 61, 62, 64, 64, 63, 67, 66, 
+                69, 76, NA, 63, 64, 65, 65, 71, 66, 65, 65, 71, 64, 71, 60, 62, 
+                61, 69, 66, NA),
+  wt_lbs    = c(216, 106, 145, 195, 143, 125, 138, 140, 158, 167, 145, 297, 146, 
+                125, 111, 125, 130, 182, 170, 121, 98, 150, 132, 250, 137, 124, 
+                186, 148, 134, 155, 122, 142, 110, 132, 188, 176, 188, 166, 136, 
+                147, 178, 125, 102, 140, 139, 60, 147, 147, 141, 232, 186, 212, 
+                110, 110, 115, 154, 140, 150, 130, NA, 171, 156, 92, 122, 102, 
+                163, 141, NA),
+  bmi       = c(30.99, 18.78, 26.52, 30.54, 22.39, 26.12, 23.69, 20.67, 26.29, 
+                25.39, 25.68, 45.15, 21.56, 20.17, 17.38, 20.8, 22.31, 22.75, 
+                26.62, 21.43, 19.14, 23.49, 22.66, 32.98, 25.05, 18.31, 29.13, 
+                27.07, 20.37, 25.01, 19.69, 25.97, 18.88, 20.07, NA, 26.76, 
+                26.97, 25.24, 20.68, 23.72, 24.82, 23.62, 18.65, 24.03, 23.86, 
+                10.63, 23.02, 23.72, 20.82, 28.24, NA, 37.55, 18.88, 18.3, 
+                19.13, 21.48, 22.59, 24.96, 21.63, NA, 29.35, 21.76, 17.97, 
+                22.31, 19.27, 24.07, 22.76, NA),
+  bmi_3cat  = c(3, 1, 2, 3, 1, 2, 1, 1, 2, 2, 2, 3, 1, 1, 1, 1, 1, 1, 2, 1, 1, 
+                1, 1, 3, 2, 1, 2, 2, 1, 2, 1, 2, 1, 1, NA, 2, 2, 2, 1, 1, 1, 1, 
+                1, 1, 1, 1, 1, 1, 1, 2, NA, 3, 1, 1, 1, 1, 1, 1, 1, NA, 2, 1, 
+                1, 1, 1, 1, 1, NA)
+) %>% 
+  mutate(
+    age_group = factor(age_group, labels = c("Younger than 30", "30 and Older")),
+    gender = factor(gender, labels = c("Female", "Male")),
+    bmi_3cat = factor(bmi_3cat, labels = c("Normal", "Overweight", "Obese"))
+  )
+  ```
+
+The easiest is just to use the same simple descriptive statistics as before, except that we apply these to each group of the categorical variable:  
+
+### Single predictor and single outcome  
+```r
+class_summary <- class %>% 
+  filter(!is.na(ht_in)) %>% # Can also use na.rm = TRUE in the various functions inside summarise().
+  group_by(gender) %>% 
+  summarise(
+    n                    = n(),
+    mean                 = mean(ht_in),
+    `standard deviation` = sd(ht_in),
+    min                  = min(ht_in),
+    max                  = max(ht_in),
+    range                = max(ht_in) - min(ht_in),
+  ) %>% 
+  print()
+```
+```
+## # A tibble: 2 × 6
+##   gender     n  mean `standard deviation`   min   max range
+##   <fct>  <int> <dbl>                <dbl> <dbl> <dbl> <dbl>
+## 1 Female    43  64.3                 2.59    58    69    11
+## 2 Male      22  69.2                 2.89    65    76    11
+```
+We see that makes are on average taller than females. But the spread seems to be quite equal within the two groups. They have the same range and similar SD. We can plot this also:  
+
+```r
+class %>% 
+  filter(!is.na(ht_in)) %>% 
+  ggplot(aes(x = gender, y = ht_in)) +
+    geom_jitter(aes(col = gender), width = 0.20) +
+    geom_segment(
+      aes(x = c(0.75, 1.75), y = mean, xend = c(1.25, 2.25), yend = mean, col = gender), 
+      size = 1.5, data = class_summary
+    ) +
+    scale_x_discrete("Gender") +
+    scale_y_continuous("Height (Inches)") +
+    scale_color_manual(values = c("#BC581A", "#00519B")) +
+    theme_classic() +
+    theme(legend.position = "none", axis.text.x = element_text(size = 12))
+```
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/jitter_height_gender.png" alt="">  
+
+
+[Top](#contents)  
+
+### Multiple predictors
+If we want to comparing continuous outomes across several levels or categorical variables. In our case this is easy as we can just add more variables to the `group_by()` function:  
+
+```r
+class_summary <- class %>% 
+  filter(!is.na(bmi)) %>% 
+  group_by(gender, age_group) %>% 
+  summarise(
+    n                    = n(),
+    mean                 = mean(bmi),
+    `standard deviation` = sd(bmi),
+    min                  = min(bmi),
+    max                  = max(bmi)
+  )
+
+class_summary
+## # A tibble: 4 × 7
+## # Groups:   gender [2]
+##   gender age_group           n  mean `standard deviation`   min   max
+##   <fct>  <fct>           <int> <dbl>                <dbl> <dbl> <dbl>
+## 1 Female Younger than 30    35  23.1                 5.41  17.4  45.2
+## 2 Female 30 and Older        8  21.8                 5.67  10.6  26.8
+## 3 Male   Younger than 30    19  24.6                 3.69  19.7  33.0
+## 4 Male   30 and Older        2  28.6                 3.32  26.3  31.0
+```  
+
+Here we investigate bmi separately for males and females in different age groups.
+
+```r
+class %>% 
+  filter(!is.na(bmi)) %>% 
+  ggplot(aes(x = age_group, y = bmi)) +
+    facet_wrap(vars(gender)) +
+    geom_jitter(aes(col = age_group), width = 0.20) +
+    geom_segment(
+      aes(x = rep(c(0.75, 1.75), 2), y = mean, xend = rep(c(1.25, 2.25), 2), yend = mean, 
+          col = age_group),
+      size = 1.5, data = class_summary
+    ) +
+    scale_x_discrete("Age Group") +
+    scale_y_continuous("BMI") +
+    scale_color_manual(values = c("#BC581A", "#00519B")) +
+    theme_classic() +
+    theme(legend.position = "none", axis.text.x = element_text(size = 10))
+```
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/self_study/jitter_multiple_groups.png" alt="">  
+
+[Top](#contents)  
