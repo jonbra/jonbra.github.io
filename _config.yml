@@ -75,6 +75,7 @@ analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     measurement_id       : "G-9KVCV09M22"
+    anonymize_ip         : # true, false (default)
 #    tracking_id          : "UA-82383261-1"
 
 
