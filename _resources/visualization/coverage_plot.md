@@ -23,8 +23,8 @@ samtools depth -aa -d 1000000 input.bam | grep "contig_youwant_to_count" | gzip 
 # Enter R
 library(tidyverse)
 # Load data
-cov <- as.tbl(read.table(file = "coverage.txt.gz")) %>% 
-	rename("Position" = V2) %>% rename("Coverage" = V3)
+cov <- read_tsv(file = "coverage.txt.gz", col_names = FALSE) %>% 
+	rename("Position" = X2) %>% rename("Coverage" = X3)
 # Plot
 cov %>% select(Position, Coverage) %>% 
 	ggplot(aes(Position, Coverage)) + 
