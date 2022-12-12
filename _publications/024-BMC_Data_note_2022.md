@@ -1,5 +1,5 @@
 ---
-date: 2022-00-00
+date: 2022-10-18
 title: "Time-resolved small RNA transcriptomics of the ichthyosporean Sphaeroforma arctica"
 permalink: /publications/BMC_2022
 excerpt: "We sequenced the smallRNA content across the cell cycle of S. arctica"
