@@ -27,3 +27,16 @@ some_tibble %>%
 
 ## Move every other row into two columns
 <script src="https://gist.github.com/jonbra/f8936352bb21717e02ef4dbf9e486920.js"></script>
+
+## Some snippets on using map() to read files
+```{r}
+# Read a list of input files into a list
+tmp <- list.files(full.names = FALSE, pattern = ".tsv") %>%
+  # Keep the file names as the names of the list elements
+  set_names() %>% 
+  map(read_tsv, col_names = FALSE)
+
+# Reduce the list to a single dataframe. Keep the filenames (list element names) in column 1
+# The column name will be "sampleName"
+df <- bind_rows(tmp, .id = "sampleName")
+```
