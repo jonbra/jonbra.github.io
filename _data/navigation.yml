@@ -55,6 +55,8 @@ abel:
 resources:
   - title: Datasets
     children:
+      - title: "Ondracka et al. 2023. F1000Research"
+        url: https://f1000research.com/articles/12-542/v1
       - title: "Andresen et al. 2021. Scientific Reports"
         url: https://www.ebi.ac.uk/ena/browser/view/PRJEB40379
       - title: "Gulbrandsen et al. 2021. Journal of Phycology"
