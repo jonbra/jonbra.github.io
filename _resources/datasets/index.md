@@ -8,6 +8,8 @@ sidebar:
 
 {% include base_path %}
 
+## [Dataset](https://www.ebi.ac.uk/ena/browser/view/PRJEB55646) from our [paper in F1000Research](https://f1000research.com/articles/12-542/v1) on small RNA dynamics of *Sphaeroforma arctica*.  
+
 ## [Datasets](https://www.ebi.ac.uk/ena/browser/view/PRJEB40460) from our paper on transcritome sequencing of *Acetabularia acetabulum* in [Algal Research](https://www.sciencedirect.com/science/article/pii/S2211926421002599)
 
 ## [Datasets](https://www.ebi.ac.uk/ena/browser/view/PRJEB40379) from our paper on genome sequencing of *Acetabularia acetabulum* in [Scientifc Reports](https://www.nature.com/articles/s41598-021-92092-4)
