@@ -71,6 +71,8 @@ resources:
         url: http://datadryad.org/resource/doi:10.5061/dryad.v83fj
   - title: Computer code
     children:
+      - title: "Notes on Nextflow"
+        url: /resources/nextflow
       - title: "SARS-CoV-2 analysis"
         url: /resources/R/nextclade_mutations
       - title: "Tidyverse snippets"
