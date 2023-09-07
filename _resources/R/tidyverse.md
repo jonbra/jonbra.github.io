@@ -28,8 +28,9 @@ some_tibble %>%
 ## Move every other row into two columns
 <script src="https://gist.github.com/jonbra/f8936352bb21717e02ef4dbf9e486920.js"></script>
 
-## Some snippets on using map() to read files
-```{r}
+## Some snippets on using map() to read files  
+
+```
 # Read a list of input files into a list
 tmp <- list.files(full.names = FALSE, pattern = ".tsv") %>%
   # Keep the file names as the names of the list elements
