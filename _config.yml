@@ -72,7 +72,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google_gtag" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "G-9KVCV09M22"
     measurement_id       : "G-9KVCV09M22"
