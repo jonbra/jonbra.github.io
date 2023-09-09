@@ -87,6 +87,10 @@ resources:
     children:
       - title: "R for Epidemiology"
         url: /resources/R/epidemiology
+      - title: "The Great Mental Models"
+        url: /resources/great_mental_models
+      - title: "Scientific literature"
+        url: /resources/scientific_literature
 
 # Research sidebar links
 research:
