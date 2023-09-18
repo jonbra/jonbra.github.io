@@ -37,6 +37,23 @@ Maps (models, representations, examples, etc.) are reductions of reality. Maps a
 > Within our circles of competence, we know exactly what we **don't** know.
 
 ### First principles thinking  
+Also known as **reasoning from first principles**. You separate the facts from the assumptions based on them. First principles thinking identifies the elements thar are non-reducible.
+
+**Socratic questioning** can be used to establish first principles (this could be very useful when writing a paper...): 
+1. **Clarify your thinking** and explaining the origins of your ideas (why do I think this? What exactly do I think?).
+2. **Challenging assumptions**. (How do I know this is true? What if I thought the opposite?).
+3. **Looking for evidence**. (How can I back this up? What are the sources?).
+4. **Considering alternative perspectives**. (What might others think? How do I know I am correct?).
+5. **Examining consequences and implications**. (What if I am wrong? What are the consequences if I am?).
+6. **Questioning the original questions**. (Why did I think that? Was I correct? What conclusions can I draw from the reasoning process?).
+
+
+> If your "whys" result in a statement of falsifiable fact, you have hit a first principle. If they end up with a "because I said so" or "it just is", you know you have landed on an assumption that may be based on popular opinion, cultural myth, or dogma. These are not first principles.  
+
+> So when we start with the idea that the way things are might not be the way they have to be, we put ourselves in the right frame of mind to identify first principles.  
+
+This is related to creativity. Develop your own ideas and thoughts.   
+
 ### Thought experiment
 ### Second-order thinking  
 ### Probabilistic thinking
