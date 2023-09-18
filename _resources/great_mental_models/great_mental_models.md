@@ -31,7 +31,11 @@ Notes from reading the book series [The Great Mental Models](https://fs.blog/tgm
 
 # Volume 1: General Thinking Concepts  
 ### The map is not the territory  
-### Circle of competence
+Maps (models, representations, examples, etc.) are reductions of reality. Maps are also affected by the biases of the creator.  
+
+### Circle of competence  
+> Within our circles of competence, we know exactly what we **don't** know.
+
 ### First principles thinking  
 ### Thought experiment
 ### Second-order thinking  
