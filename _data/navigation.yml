@@ -90,7 +90,7 @@ resources:
       - title: "The Great Mental Models"
         url: /resources/great_mental_models
       - title: "Scientific literature"
-        url: /resources/scientific_literature
+        url: /posts/
 
 # Research sidebar links
 research:
