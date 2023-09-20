@@ -11,6 +11,7 @@ categories:
 In the paper by [Howe et al.](https://www.jhep-reports.eu/article/S2589-5559(22)00034-9/fulltext) they base their definitions of resistance mutations according to the "RAS variants listed in the 2020 EASL recommendations" (quote from the paper).  I guess they mean the mutations listed in Table 7 in [Pawlotsky et al. 2020](https://www.journal-of-hepatology.eu/article/S0168-8278(20)30548-1/fulltext). 
 
 Table 7:  
+
 | Drug class (genome region)                             | Amino acid position | Genotype/subtype                   |                                  |                          |              |                    |                    |                   |
 |--------------------------------------------------------|---------------------|------------------------------------|----------------------------------|--------------------------|--------------|--------------------|--------------------|-------------------|
 |                                                        |                     | 1a                                 | 1b                               | 2                        | 3            | 4                  | 5                  | 6                 |
@@ -69,7 +70,8 @@ Table 7:
 |                                                        | 558                 | G558R                              | G558R                            |                          |              |                    |                    |                   |
 |                                                        | 559                 | D559G/N                            | D559G/N                          |                          |              |                    |                    |                   |
 |                                                        | 561                 | Y561H/N                            |                                  |                          |              |                    |                    |                   |
-|                                                        | 565                 | S565F                              |                                  |                          |              |                    |                    |                   |
+|                                                        | 565                 | S565F                              |                                  |                          |              |                    |                    |                   |  
+  
 
 How does these correspond to the RAS identified by HCV GLUE?
 
