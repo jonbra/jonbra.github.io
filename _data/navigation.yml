@@ -75,8 +75,8 @@ resources:
         url: /resources/nextflow
       - title: "SARS-CoV-2 analysis"
         url: /resources/R/nextclade_mutations
-      - title: "Tidyverse snippets"
-        url: /resources/R/tidyverse
+      - title: "R and Tidyverse snippets"
+        url: /tags/R/
       - title: "RNA-Seq analysis on the UiO compute cluster"
         url: /resources/abel/intro/
       - title: "HPC cheat sheet"
