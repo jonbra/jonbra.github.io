@@ -42,7 +42,7 @@ tmp <- list.files(full.names = FALSE, pattern = ".tsv") %>%
 df <- bind_rows(tmp, .id = "sampleName")
 ```
 
-## Arrange row order in custom order   
+## Arrange rows in custom order   
 Use the `match` function to create a vector of indexes (row numbers) of the rows matching the strings "Honda Civic" and "Camaro Z28" in the column "car". Put this vector into `arrange()` to arrange the rows accordingly.  
 ```
 library(tidyverse)
