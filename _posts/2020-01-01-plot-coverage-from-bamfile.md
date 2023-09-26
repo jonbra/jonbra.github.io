@@ -31,3 +31,4 @@ cov %>% select(Position, Coverage) %>%
 	ggplot(aes(Position, Coverage)) + 
 	geom_line()
 ```
+![plot](/assets/images/coverage_from_bamfile.png)
