@@ -72,7 +72,7 @@ resources:
   - title: Computer code
     children:
       - title: "Notes on Nextflow"
-        url: /resources/nextflow
+        url: /tags/Nextflow
       - title: "SARS-CoV-2 analysis"
         url: /resources/R/nextclade_mutations
       - title: "R and Tidyverse snippets"
