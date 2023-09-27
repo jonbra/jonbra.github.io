@@ -5,6 +5,7 @@ excerpt: "Notes on HCV resistance mutations and drugs"
 tags:
   - paper
   - HCV
+  - paper_notes
 categories:
 ---
 
