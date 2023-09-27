@@ -1,9 +1,6 @@
 ---
-title: "Random notes on using Nextflow"
-permalink: /resources/nextflow
-excerpt: "Random notes on using Nextflow"
-sidebar:
-  nav: "resources"
+title: "Some notes on using Nextflow"
+excerpt: "Some notes on Hybrid deployment, Nextflow Tower and Operators"
 tags:
   - Nextflow
 ---
