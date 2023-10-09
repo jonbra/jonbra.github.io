@@ -1,6 +1,6 @@
 ---
 title: "Advanced Training - September 2023"
-excerpt: "Note from the advanced training in September 2023"
+excerpt: "Notes from the advanced training in September 2023"
 tags:
   - Nextflow
   - map
