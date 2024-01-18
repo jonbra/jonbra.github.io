@@ -13,7 +13,7 @@ gallery:
     image_path: assets/images/publications/2024-SciRep-Fig2.png
     alt: "Figure 2. Intra host evolution of SARS-CoV-2"
   - url: assets/images/publications/2024-SciRep-Fig3.png
-    image_path: assets/images/publications/2024-SciRep-Fig4.png
+    image_path: assets/images/publications/2024-SciRep-Fig3.png
     alt: "Figure 3. Mutation analysis of recombinant strain"
 tags:
   - acetabularia
