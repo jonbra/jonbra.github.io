@@ -87,6 +87,8 @@ resources:
         url: /resources/R/epidemiology
       - title: "The Great Mental Models"
         url: /resources/great_mental_models
+      - title: "Clear Thinking"
+        url: /resources/clear_thinking
       - title: "Scientific literature"
         url: /tags/paper_notes/
 
