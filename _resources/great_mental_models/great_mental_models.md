@@ -7,6 +7,7 @@ sidebar:
 tags:
   - Farnam Street
   - Great Mental Models
+  - Shane Parrish
 ---
 
 {% include base_path %}
