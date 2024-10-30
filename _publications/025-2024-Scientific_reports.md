@@ -16,10 +16,10 @@ gallery:
     image_path: assets/images/publications/2024-SciRep-Fig3.png
     alt: "Figure 3. Mutation analysis of recombinant strain"
 tags:
-  - acetabularia
+  - SARS-CoV-2
 ---
 
-Garcia, I., **Bråte, J**., Fossum, E., Rohringer, A., Moen, L. V., Hungnes, O., Fjaere, O., Zaragkoulias, K. and Bragstad, K. 2024. *Research Square*. [doi:10.21203/rs.3.rs-3787764/v1](https://www.researchsquare.com/article/rs-3787764/v1)
+Garcia, I., **Bråte, J**., Fossum, E., Rohringer, A., Moen, L. V., Hungnes, O., Fjaere, O., Zaragkoulias, K. and Bragstad, K. 2024. *Scientifc Reports*. [doi:https://doi.org/10.1038/s41598-024-75241-3](https://www.nature.com/articles/s41598-024-75241-3#Abs1)
 
 {% include gallery caption="" %}
 
