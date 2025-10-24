@@ -191,7 +191,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/Oslo" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-remote_theme: "mmistakes/minimal-mistakes@4.16.0"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Plugins (previously gems:)
 plugins:
@@ -203,13 +203,13 @@ plugins:
   - jekyll-feed
   - jemoji
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+## mimic GitHub Pages with --safe
+#whitelist:
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-feed
+#  - jemoji
 
 
 # Archives

@@ -4,11 +4,11 @@ source "https://rubygems.org"
 # https://www.christianengvall.se/upgrade-to-latest-jekyll-version/
 # gem "jekyll", "3.8.5"
 
-gem "jekyll-remote-theme"
+# gem "jekyll-remote-theme"
 
 gem "github-pages", group: :jekyll_plugins
 
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -19,14 +19,14 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-data"
 
 #   See here: https://github.com/mmistakes/minimal-mistakes/issues/1937
-    gem "jekyll-include-cache"
+gem "jekyll-include-cache", group: :jekyll_plugins
 #
 # If you have any other plugins, put them here!
-group :jekyll_plugins do
-end
+# group :jekyll_plugins do
+# end
 
 
-gem "webrick", "~> 1.8"
-gem "exec", "~> 0.0.3"
-gem "jekyll", "~> 3.9"
-gem "serve", "~> 0.11.7"
+# gem "webrick", "~> 1.8"
+# gem "exec", "~> 0.0.3"
+# gem "jekyll", "~> 3.9"
+# gem "serve", "~> 0.11.7"
