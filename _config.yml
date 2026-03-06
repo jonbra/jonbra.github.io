@@ -58,7 +58,7 @@ yandex_site_verification :
 bluesky:
   username               : "jonbrate.bsky.social"
 twitter:
-  username               : "___JonB___"
+  username               : ""
 facebook:
   username               :
   app_id                 :
@@ -113,7 +113,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "___JonB___"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :

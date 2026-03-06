@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
-# Trying to force the use of the latest Jekyll version. After info here:
-# https://www.christianengvall.se/upgrade-to-latest-jekyll-version/
-# gem "jekyll", "3.8.5"
-
-# gem "jekyll-remote-theme"
-
-gem "github-pages", group: :jekyll_plugins
+# Use Jekyll directly for local development (github-pages pins Jekyll 3.x with
+# old gems that are no longer downloadable). The site uses remote_theme so it
+# renders identically on GitHub Pages.
+gem "jekyll", "~> 4.3"
+gem "webrick"  # required by Ruby 3.x (removed from stdlib)
 
 # gem "minimal-mistakes-jekyll"
 
@@ -20,13 +18,9 @@ gem "github-pages", group: :jekyll_plugins
 
 #   See here: https://github.com/mmistakes/minimal-mistakes/issues/1937
 gem "jekyll-include-cache", group: :jekyll_plugins
-#
-# If you have any other plugins, put them here!
-# group :jekyll_plugins do
-# end
-
-
-# gem "webrick", "~> 1.8"
-# gem "exec", "~> 0.0.3"
-# gem "jekyll", "~> 3.9"
-# gem "serve", "~> 0.11.7"
+gem "jekyll-remote-theme", group: :jekyll_plugins
+gem "jekyll-paginate", group: :jekyll_plugins
+gem "jekyll-sitemap", group: :jekyll_plugins
+gem "jekyll-gist", group: :jekyll_plugins
+gem "jekyll-feed", group: :jekyll_plugins
+gem "jemoji", group: :jekyll_plugins
