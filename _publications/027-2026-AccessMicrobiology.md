@@ -1,19 +1,19 @@
 ---
-date: 2025-10-24
+date: 2026-04-07
 title: "HCVTyper: A Nextflow pipeline for hepatitis C virus genome assembly, genotyping and antiviral resistance detection"
-permalink: /publications/2025_bioRxiv
+permalink: /publications/2026_AccessMicrobiology
 excerpt: "HCV bioinformatics pipeline"
 header:
-  teaser: assets/images/publications/2025_bioRxiv_Figure_1.jpg
+  teaser: assets/images/publications/2026_AccessMicrobiology_Figure_1.jpg
 gallery:
-  - url: assets/images/publications/2025_bioRxiv_Figure_1.jpg
-    image_path: assets/images/publications/2025_bioRxiv_Figure_1.jpg
+  - url: assets/images/publications/2026_AccessMicrobiology_Figure_1.jpg
+    image_path: assets/images/publications/2026_AccessMicrobiology_Figure_1.jpg
     alt: "Figure 1. Schematic overview of the main steps in HCVTyper"
-  - url: assets/images/publications/2025_bioRxiv_Figure_2.png
-    image_path: assets/images/publications/2025_bioRxiv_Figure_2.png
+  - url: assets/images/publications/2026_AccessMicrobiology_Figure_2.png
+    image_path: assets/images/publications/2026_AccessMicrobiology_Figure_2.png
     alt: "Figure 2. Analysis of the sim1 dataset (1a:1b co-infection)"
-  - url: assets/images/publications/2025_bioRxiv_Figure_3.png
-    image_path: assets/images/publications/2025_bioRxiv_Figure_3.png
+  - url: assets/images/publications/2026_AccessMicrobiology_Figure_3.png
+    image_path: assets/images/publications/2026_AccessMicrobiology_Figure_3.png
     alt: "Figure 3. Execution time and memory usage per pipeline process"
 tags:
   - Hepatitis C virus
@@ -22,7 +22,7 @@ tags:
   - paper
 ---
 
-**Bråte, J**., Instefjord, K, H., Alfsnes, K. and Stene-Johansen, K. 2025. *bioRxiv*. [doi:https://doi.org/10.1101/2025.10.21.683612](https://www.biorxiv.org/content/10.1101/2025.10.21.683612v2)  
+**Bråte, J**., Instefjord, K, H., Alfsnes, K. and Stene-Johansen, K. 2026. *Access Microbiology*. [doi:10.1099/acmi.0.001193.v1](https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.001193.v1)  
 
 {% include gallery caption="" %}
 
