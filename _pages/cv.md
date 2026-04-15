@@ -13,6 +13,12 @@ toc_sticky: true
   <a href="#" onclick="window.print(); return false;" class="btn btn--primary"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download / Print PDF</a>
 </div>
 
+<style>
+.page__content p, .page__content li {
+  font-size: 0.875em;
+}
+</style>
+
 **Senior Researcher at the Norwegian Institute of Public Health (NIPH)**
 
 Date of birth: 12.03.1983  
@@ -198,7 +204,7 @@ Patil, V., **Bråte, J.**, Shalchian-Tabrizi, K. and Jakobsen, K. S. 2008. Revis
 
 ---
 
-## Conferences and meetings
+### Conferences and meetings
 
 - Bråte, J. Genomic surveillance of HCV in Norway. Norwegian Consortium of Microbial Genomics. Invited talk. 2024-12-05.
 - Bråte, J. Genome sequencing and surveillance of viruses at FHI (NIPH). Norwegian Bioinformatics Days. 2024-05-28.
@@ -219,7 +225,7 @@ Patil, V., **Bråte, J.**, Shalchian-Tabrizi, K. and Jakobsen, K. S. 2008. Revis
 
 ---
 
-## Popular science and media
+### Popular science and media
 
 - «A teeny-weeny mystery: investigating the difference between you and me and a single-celled organism». ScienceNordic, 2018. <http://sciencenordic.com/teeny-weeny-mystery-investigating-difference-between-you-and-me-and-single-celled-organism>
 - «Knøttlite mysterium: Hva er egentlig forskjellen på deg og en encellet skapning?». Forskning.no, 04.02.19. <https://forskning.no/celler-evolusjon/knottlite-mysterium-hva-er-egentlig-forskjellen-pa-deg-og-en-encellet-skapning/1289155>
