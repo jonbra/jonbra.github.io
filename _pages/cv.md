@@ -67,6 +67,7 @@ ORCID: [https://orcid.org/0000-0003-0490-1175](https://orcid.org/0000-0003-0490-
 
 | Year | Grant |
 |------|-------|
+| 2026 | **Norwegian Cancer Society**: Viral infection during pregnancy and childhood leukemia. Research project #322391. Total project budget: 13 mill NOK, of which 8 mill NOK in funding. |
 | 2025 | **Frances and Augustus Newman Foundation**: Analysis of viral agents in childhood leukemia (£14,000). My role is to help design lab and bioinformatics protocols, as well as identification of viral agents in sequence data. |
 | 2025 | **European Commission**: European Reference Laboratory (EURL) for food and waterborne viruses, 2026–2032 (€3.25 million). My role is to implement tools for virus surveillance based on whole genome sequence data. |
 | 2023 | **Research Council of Norway (RCN)**: SICKSOIL: Linking Microbes, Organic Matter and Sick Soil Syndrome (€266,000). My role is to investigate the diversity of viruses in various soil environments. |
