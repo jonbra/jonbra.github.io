@@ -1,5 +1,5 @@
 ---
-date: 2026-03-27
+date: 2026-05-05
 title: "Evaluation of a multiplexed tiling PCR scheme for whole-genome amplification of hepatitis B virus using Oxford Nanopore sequencing"
 permalink: /publications/2026_bioRxiv_HBV
 excerpt: "HBV tiling PCR and Nanopore sequencing"
@@ -29,7 +29,7 @@ tags:
   - paper
 ---
 
-**Bråte, J**., Grande, E. G., Pedersen, B. N., Frengen, T. G. and Stene-Johansen, K. 2026. *bioRxiv*. [doi:10.64898/2026.03.28.714721](https://www.biorxiv.org/content/10.64898/2026.03.28.714721v1)
+**Bråte, J**., Grande, E. G., Pedersen, B. N., Frengen, T. G. and Stene-Johansen, K. 2026. *Access Microbiology*. [doi:10.1099/acmi.0.001232.v1](https://www.microbiologyresearch.org/content/journal/acmi/10.1099/acmi.0.001232.v1)
 
 {% include gallery caption="" %}
 
